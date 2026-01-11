@@ -23,26 +23,6 @@ Maven
 
 IntelliJ IDEA (или другая IDE с поддержкой Spring Boot)
 
-Структура проекта
-hh-parser/
- ├─ src/main/java/com/example/hhparser/
- │    ├─ HhParserApplication.java
- │    ├─ parser/
- │    │    ├─ Parser.java
- │    │    └─ HHParser.java
- │    ├─ model/
- │    │    └─ Vacancy.java
- │    ├─ repository/
- │    │    └─ VacancyRepository.java
- │    ├─ service/
- │    │    └─ VacancyService.java
- │    └─ controller/
- │         └─ VacancyController.java
- └─ src/main/resources/
- │      └─ application.properties
- └─ pom.xml
- └─ README.md
-
 Сборка и запуск проекта
 
 Открыть проект в IntelliJ IDEA: File → Open → hh-parser
