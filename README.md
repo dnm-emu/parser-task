@@ -68,8 +68,11 @@ Started HhParserApplication
 @PostConstruct
 public void init() {
     List<String> testUrls = List.of(
-        "https://hh.ru/vacancy/129168773",
-        "https://hh.ru/vacancy/128917418"
+        "https://tyumen.hh.ru/vacancy/128917418?from=applicant_recommended&hhtmFrom=main",
+                "https://tyumen.hh.ru/vacancy/128999688?from=applicant_recommended&hhtmFrom=main",
+                "https://tyumen.hh.ru/vacancy/126428618?from=applicant_recommended&hhtmFrom=main",
+                "https://tyumen.hh.ru/vacancy/128993305?hhtmFrom=vacancy_search_list",
+                "https://tyumen.hh.ru/vacancy/129168773?hhtmFrom=vacancy_search_list"
     );
     parseVacancies(testUrls);
 }
